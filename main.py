@@ -141,7 +141,7 @@ def create_finish_paragraph(doc, i, sum_ben, text_ben, delta_dates, fio):
 
     doc.add_paragraph()
     p = doc.add_paragraph()
-    p.add_run('Представитель по доверенности                                            Ю.С. Фишова')
+    p.add_run('Представитель по доверенности                                            И.О. Фамилия')
     p_frm = p.paragraph_format
     p_frm.first_line_indent = Mm(0)
     doc.add_paragraph()
